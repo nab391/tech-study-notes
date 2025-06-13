@@ -1,0 +1,14 @@
+.trash
+.trash/
+.tmp
+.tmp/
+.doc
+.doc/
+node_modules/
+_tmp.md
+__marp.html
+__tmp
+__tmp.md
+package-lock.json
+*.tmp
+*.log
