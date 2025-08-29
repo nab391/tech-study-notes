@@ -1,0 +1,78 @@
+/* @theme custom*/
+@import 'default';
+
+/* 全体 */
+section {
+  background: #fed823;
+  color: #241915;
+}
+
+/* 2ページ目 */
+h2 {
+  /* ***** 1.ボックス設定 ***** */
+  /* 大きさ */
+  width: 80%;
+  /* 余白 */
+  margin: 0.5em auto 0.5em auto;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  /* padding装飾 */
+  background: #251915;
+  /* border */
+  border: solid 8px #ea4f24;
+
+  /* ***** 2.コンテンツ領域 ***** */
+  /* 文字配置 */
+  text-align: center;
+  /* 文字装飾 */
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+p, ul {
+  width: 70%;
+  margin: 0.5em auto;
+  padding: 0;
+}
+
+strong {
+  color: #ea4f24;
+}
+
+/* 1ページ目 */
+section.title {
+  background: linear-gradient(90deg, #fed823 0%, #fed823 60%, #ffffff 60%, #ffffff 100%);
+}
+h1 {
+  /* 位置 */
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -50%);
+  /* 大きさ */
+  width: 50%;
+  /* 余白 */
+  margin: 0em;
+  padding: 0.1em;
+  /* ボックス装飾 */
+  border-bottom: solid 4px #ea4f24;
+  /* 文字配置 */
+  text-align: center;
+  /* 文字装飾 */
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #241915;
+}
+
+section.title p {
+  /* 位置 */
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  transform: translate(0%, -50%);
+  /* 大きさ */
+  width: 30%;
+  /* 余白 */
+  margin: 0px;
+}
+
